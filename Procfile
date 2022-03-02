@@ -1,1 +1,3 @@
-web: gunicorn --bind 0.0.0.0:$PORT qinvest.wsgi:application --log-file - --log-level debug
+web: gunicorn --bind 0.0.0.0:$PORT qinvest.wsgi:application --preload --workers 1
+
+
