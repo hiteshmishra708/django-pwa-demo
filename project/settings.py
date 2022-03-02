@@ -25,7 +25,7 @@ SECRET_KEY = 'eo#$u+kt4h_gx@ag*3am%42hq^8or2ycumka%9vd&(z9+2s7rz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["django-pwa-demo.herokuapp.com"]
 
 
 # Application definition
